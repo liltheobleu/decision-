@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DECISION MAKER</title>
+<style type="text/css">
+  body {background-color:yellow;}
+  button {
+  	padding:2em;
+  	font-size:2em;
+  	display:block;
+  	margin:30vh auto;
+  	border-radius:10px;
+  }
+</style>
+</head>
+<body>
+<button onclick="decide()"> DECIDE!!! </button>
+</body>
+</html>
+
+
+<script>
+       function decide() {
+
+var decisions = [
+"Yes, you should",
+"No,I don't think it is a good idea",
+"I am not sure you should do that",
+"Yes for sure",
+"You should ask your parents before doing that",
+"You shouldn't its a very bad idea",
+"Why would you do that ???",
+"Why not !",
+"No are you stupid !!!",
+"Oh my god !!!",
+"OK"
+]
+
+alert(
+decisions[Math.floor(Math.random() * 11)])
+}
+</script>
+
